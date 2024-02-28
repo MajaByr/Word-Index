@@ -129,7 +129,6 @@ int StrCmp( char* pWord1, char* pWord2 )
 	_strupr( pCopy1 ); 
 	_strupr( pCopy2 );
 
-
 	int res = strcmp( pCopy1, pCopy2 );
 	free( pCopy1 );
 	pCopy1 = NULL;
